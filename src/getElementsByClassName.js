@@ -17,8 +17,6 @@ element.classList
 // But in stead we're going to implement it from scratch:
 var getElementsByClassName = function (className) {
   
-
-
   var walkDOM = function (element) {
 
     var result = [];
