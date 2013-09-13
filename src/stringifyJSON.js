@@ -3,9 +3,9 @@
 
 // but you don't so you're going to have to write it from scratch:
 var stringifyJSON = function (obj) {
-
-  var result = result || '';
   
+  var result = '';
+
   if (typeof obj === 'number' || typeof obj === 'boolean' || obj === null ) {
     result += obj;
   }
